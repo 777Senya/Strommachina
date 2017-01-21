@@ -86,6 +86,11 @@ article{
     width:960px;
 }
 
+.position_content{
+    display:flex;
+    justify-content:center;
+}
+
 .size-footer{
     display:flex;
     flex-direction: row;

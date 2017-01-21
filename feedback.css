@@ -54,7 +54,7 @@ input:focus {
     border: none;
     border-radius: 0 !important;
     border-color: #07a6e6 !important;
-    width: 248px;
+    width: 200px;
     text-align: center;
     background: #07a6e6;
     font-size: 13px;
@@ -64,6 +64,11 @@ input:focus {
     height: 35px;
     line-height: 28px;
     padding: 0;
+    margin-right:20px;
+}
+.position_send{
+    display:flex;
+    justify-content:center;
 }
 
 .submit:hover {
