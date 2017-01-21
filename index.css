@@ -1,0 +1,100 @@
+* {
+    margin: 0 auto;
+}
+
+* a:hover {
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+#flex-header {
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bg-c {
+    background-color: white;
+}
+
+#contact {
+    margin: 42px 0 0 268.27px;
+}
+
+span {
+    margin-right: 5px;
+}
+
+
+/*IMG*/
+
+#logo_img {
+    margin: 0 268.218px 2px 0px;
+}
+
+.header-line{
+    background-color:#6e6e6e;
+    width:100%;
+    height:7px;
+}
+.footer-line{
+    background-color:#202020;
+    width:100%;
+    height:100px; 
+}
+
+/*IMG*/
+
+.active {
+    background-color: #e9e9e9;
+}
+
+nav {
+    margin-top: 5px;
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+nav>a {
+    margin: 0 10px;
+    padding: 16px 20px;
+}
+
+nav>a:hover {
+    background-color: #e9e9e9;
+}
+
+.carousel-inner {
+    width: 500px;
+}
+
+#carousel-example-generic {
+    background-image: url(bg-corusel.png);
+}
+
+hr {
+    margin: 3px 0 3px 0;
+}
+
+article{
+    width:960px;
+}
+
+.size-footer{
+    display:flex;
+    flex-direction: row;
+    width:960px;
+    justify-content: space-between;
+}
+
+.size-footer>p{
+    color: white;
+    font-size:12px;
+    margin:35px 0 0 0;
+}

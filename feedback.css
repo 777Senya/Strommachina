@@ -1,0 +1,71 @@
+label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444444;
+    display: block;
+}
+
+fieldset {
+    width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+form {
+    margin: 0 0 7px 0;
+}
+
+input {
+    border: 3px solid #cfcfcf;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #444444;
+    padding: 7px 7px 8px;
+    width: 250px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+input:valid+span:after {
+    content: url(imglogo/ok.png);
+    padding-left: 5px;
+}
+
+input:invalid+span:after {
+    content: url(imglogo/bd.png);
+    padding-left: 5px;
+}
+
+input:focus {
+    outline: none;
+    border: 3px solid #07a6e6;
+}
+.star{
+    color:red;
+}
+.position_form{
+    display:flex;
+    justify-content:center;
+    
+}
+
+.submit {
+    border: none;
+    border-radius: 0 !important;
+    border-color: #07a6e6 !important;
+    width: 248px;
+    text-align: center;
+    background: #07a6e6;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    height: 35px;
+    line-height: 28px;
+    padding: 0;
+}
+
+.submit:hover {
+    background: #009ac2;
+}
