@@ -41,13 +41,14 @@ input:focus {
     outline: none;
     border: 3px solid #07a6e6;
 }
-.star{
-    color:red;
+
+.star {
+    color: red;
 }
-.position_form{
-    display:flex;
-    justify-content:center;
-    
+
+.position_form {
+    display: flex;
+    justify-content: center;
 }
 
 .submit {
@@ -64,11 +65,12 @@ input:focus {
     height: 35px;
     line-height: 28px;
     padding: 0;
-    margin-right:20px;
+    margin-right: 20px;
 }
-.position_send{
-    display:flex;
-    justify-content:center;
+
+.position_send {
+    display: flex;
+    justify-content: center;
 }
 
 .submit:hover {
